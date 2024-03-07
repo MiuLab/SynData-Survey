@@ -54,7 +54,7 @@
 | multi-modal | 高長聖         | Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning                                | 2023 | https://arxiv.org/abs/2306.14565                    | in-context               | "Enhance the method of visual instruction tuning by incorporating information such as dense captions, object detection, and other details, treating them as image representations in the self-instruction process." |                            |                            |                |
 | multi-modal | 高長聖         | DialogCC: Large-Scale Multi-Modal Dialogue Dataset                                                                | 2022 | https://arxiv.org/abs/2212.04119                    | baseline                 | Create a synthetic visual dialogue dataset by leveraging a text-only dialogue dataset and an image captioning dataset                                                                                               |                            |                            |                |
 
-## Paper Archeticture
+## Paper Architecture
 ### Abstract
 ### Introduction
 - 解釋 data aug 的總體概念和方法
@@ -63,7 +63,7 @@
 - 解釋 LLM、encoder-decoder、diffussion 的概念
 ### APPROACHES
 - Text （是參考 https://arxiv.org/abs/2107.13586）（用技術分用年代放順序）
-    feature engineering: rule-based 
+  - feature engineering: rule-based 
   - architecture engineering: RNN, LSTM, Transformer
   - pre-train and fine-tune: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
   - pre-train, prompt, and predict: Generation LLM(GPT), prompt engineering, context learning
@@ -74,9 +74,10 @@
   - pre-train, prompt, and predict: Diffusion, DALLE
 - Others (multi-modal、audio、video)
 ### DATASET 
-- quality (image + text), ex: imbalance，語意豐富度(正反面)，
+一個好的 dataset 應該要同時有好的 quality(e.g. data 的 diversity、data 的 可用性、data 的準確性、 data 的完整性、data 的一致性等等等) 和 足夠的 quantity ，可以根據這兩個主題分析 data augmentation 的方式是否有在增加 dataset 的同時也注意 quality
+- quality (image + text), ex: imbalance，語意豐富度(正反面)
 - quantity (image + text), ex: insufficient，少數資源的語言新增
-  - 一個好的 dataset 應該要同時有好的 quality(e.g. data 的 diversity、data 的 可用性、data 的準確性、 data 的完整性、data 的一致性等等等) 和 足夠的 quantity ，可以根據這兩個主題分析 data augmentation 的方式是否有在增加 dataset 的同時也注意 quality
+  
 ### APPLICATION
 - Text
   - Text classification
