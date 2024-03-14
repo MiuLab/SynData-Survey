@@ -1,60 +1,60 @@
 # 😍 SynData-Survey
-## 🦛 Paper Architecture
+## 🐲 Paper Architecture
 ### 🧸 Abstract
 ### 🦖 Introduction
-#### 1. Data Augmentation Concepts
-> 解釋 data augmentation 的總體概念和方法
-> 可以用年代去解釋
+  #### 1. Data Augmentation Concepts
+  > 解釋 data augmentation 的總體概念和方法
+  > 可以用年代去解釋
 
 ### 👻 Background
 > 解釋下面這些的概念
-1. RNN, LSTM
-2. transformer
-3. LLM
-4. Prompt Engineering
-5. GAN
-6. CNN
-7. Diffusion
+  1. RNN, LSTM
+  2. transformer
+  3. LLM
+  4. Prompt Engineering
+  5. GAN
+  6. CNN
+  7. Diffusion
 
 ### 🐎 APPROACHES
 - 參考 https://arxiv.org/abs/2107.13586 （用技術分用年代放順序）
-#### 1. 🐒 Feature Engineering:
-- TEXT: rule-based
-- IMAGE: https://pytorch.org/vision/stable/transforms.html
-- OTHERS
-#### 2. 🦙 architecture engineering: 
-- TEXT: RNN, LSTM, Transformer
-- IMAGE: GAN
-- OTHERS
-#### 3. 🐈 pre-train and fine-tune:
-- TEXT: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
-- IMAGE: CNN, Diffusion
-- OTHERS
-#### 4. 🍟 pre-train, prompt, and predict:
-- TEXT: Generation LLM(GPT), prompt engineering, context learning
-- IMAGE: Diffusion, DALLE
-- OTHERS
+  #### 1. 🐒 Feature Engineering:
+  - TEXT: rule-based
+  - IMAGE: https://pytorch.org/vision/stable/transforms.html
+  - OTHERS
+  #### 2. 🐈 architecture engineering: 
+  - TEXT: RNN, LSTM, Transformer
+  - IMAGE: GAN
+  - OTHERS
+  #### 3. 🦙 pre-train and fine-tune:
+  - TEXT: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
+  - IMAGE: CNN, Diffusion
+  - OTHERS
+  #### 4. 🍟 pre-train, prompt, and predict:
+  - TEXT: Generation LLM(GPT), prompt engineering, context learning
+  - IMAGE: Diffusion, DALLE
+  - OTHERS
 
 ### 🦘 AUGMENTATION OBJECTIVES
-- improve diversity, ex: 少數資源的語言新增
-- improve dataset balance ex: label imbalance
-- domain shift
+  - improve diversity, ex: 少數資源的語言新增
+  - improve dataset balance ex: label imbalance
+  - domain shift
 
 ### 🚟 APPLICATION
-- 📒 Text
-  - Text classification
-  - Question answering
-  - Translation
-  - Natural language inference
-  - Text Generation
-  - Summarizing
-  - Instruction tuning
-  - Others
-- 🖼️ Image
-  - Image Classification 
-  - Semantic Segmentation
-  - Object Detection
-  - Human Pose Estimation
+  - 📒 Text
+    - Text classification
+    - Question answering
+    - Translation
+    - Natural language inference
+    - Text Generation
+    - Summarizing
+    - Instruction tuning
+    - Others
+  - 🖼️ Image
+    - Image Classification 
+    - Semantic Segmentation
+    - Object Detection
+    - Human Pose Estimation
 
 ### 🎊 Future Work
 ### 🧑🏻‍🎓 Conclusion
