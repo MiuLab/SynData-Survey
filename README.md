@@ -1,4 +1,4 @@
-# SynData-Survey
+# 😍 SynData-Survey
 ## 🦛 Paper Architecture
 ### 🧸 Abstract
 ### 🦖 Introduction
@@ -56,8 +56,8 @@
   - Object Detection
   - Human Pose Estimation
 
-### Future Work
-### Conclusion
+### 🎊 Future Work
+### 🧑🏻‍🎓 Conclusion
 
 ## 🤗 Papers that we read
 | 類別          | who are you | paper 題目                                                                                                          | year | paper 連結                                            | 技術類型（四類）                         | application                 | dataset  | 一句話總結                                                                                                                                                                                                               | 
