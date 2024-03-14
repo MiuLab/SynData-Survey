@@ -1,12 +1,12 @@
 # 😍 SynData-Survey
 ## 🐲 Paper Architecture
-### 🧸 Abstract
-### 🦖 Introduction
-  #### 1. Data Augmentation Concepts
-  > 解釋 data augmentation 的總體概念和方法
-  > 可以用年代去解釋
+### 🧸 1. Abstract
+### 🦖 2. Introduction
+> 解釋 data augmentation 的總體概念和方法
+> 可以用年代去解釋
+- Data Augmentation Concepts
 
-### 👻 Background
+### 👻 3. Background
 > 解釋下面這些的概念
   1. RNN, LSTM
   2. transformer
@@ -16,31 +16,31 @@
   6. CNN
   7. Diffusion
 
-### 🐎 APPROACHES
+### 🐎 4. APPROACHES
 - 參考 https://arxiv.org/abs/2107.13586 （用技術分用年代放順序）
-  #### 1. 🐒 Feature Engineering:
+1. 🐒 Feature Engineering:
   - TEXT: rule-based
   - IMAGE: https://pytorch.org/vision/stable/transforms.html
   - OTHERS
-  #### 2. 🐈 architecture engineering: 
+2. 🐈 Architecture Engineering: 
   - TEXT: RNN, LSTM, Transformer
   - IMAGE: GAN
   - OTHERS
-  #### 3. 🦙 pre-train and fine-tune:
+3. 🦙 Pre-train and Fine-tune:
   - TEXT: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
   - IMAGE: CNN, Diffusion
   - OTHERS
-  #### 4. 🍟 pre-train, prompt, and predict:
+4. 🍟 Pre-train, Prompt, and Predict:
   - TEXT: Generation LLM(GPT), prompt engineering, context learning
   - IMAGE: Diffusion, DALLE
   - OTHERS
 
-### 🦘 AUGMENTATION OBJECTIVES
-  - improve diversity, ex: 少數資源的語言新增
+### 🦘 5. AUGMENTATION OBJECTIVES
+  - improve diversity, ex: 少數資源的新增
   - improve dataset balance ex: label imbalance
   - domain shift
 
-### 🚟 APPLICATION
+### 🚟 6. APPLICATION
   - 📒 Text
     - Text classification
     - Question answering
@@ -56,8 +56,8 @@
     - Object Detection
     - Human Pose Estimation
 
-### 🎊 Future Work
-### 🧑🏻‍🎓 Conclusion
+### 🎊 7. Future Work
+### 🧑🏻‍🎓 8. Conclusion
 
 ## 🤗 Papers that we read
 | 類別          | who are you | paper 題目                                                                                                          | year | paper 連結                                            | 技術類型（四類）                         | application                 | dataset  | 一句話總結                                                                                                                                                                                                               | 
