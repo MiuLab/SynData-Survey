@@ -97,7 +97,7 @@
   - Summarizing
   - Instruction tuning
   - Others
-- Image
+- 🖼️Image
   - Image Classification 
   - Semantic Segmentation
   - Object Detection
