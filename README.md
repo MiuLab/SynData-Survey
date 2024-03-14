@@ -1,6 +1,6 @@
 # SynData-Survey
 
-## Papers what we read
+## 🤗Papers that we read
 | 類別          | who are you | paper 題目                                                                                                          | year | paper 連結                                            | 技術類型（四類）                         | application                 | dataset  | 一句話總結                                                                                                                                                                                                               | 
 |-------------|-------------|-------------------------------------------------------------------------------------------------------------------|------|-----------------------------------------------------|----------------------------------|-----------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | text        | 沛妤          | Augmented SBERT: Data Augmentation Method for Improving Bi-Encoders for Pairwise Sentence Scoring Tasks           | 2021 | https://arxiv.org/abs/2010.08240                    | pre-train and fine-tune          | Natural language inference  | quantity | 用 cross-encoders 標記資料來增強 Bi-encoders 模型                                                                                                                                                                             | 沛妤_10 papers               | 沛妤_10 papers               |                |
@@ -54,39 +54,41 @@
 | multi-modal | 高長聖         | Mitigating Hallucination in Large Multi-Modal Models via Robust Instruction Tuning                                | 2023 | https://arxiv.org/abs/2306.14565                    | "pre-train, prompt, and predict" | Instruction tuning          | quantity | "Enhance the method of visual instruction tuning by incorporating information such as dense captions, object detection, and other details, treating them as image representations in the self-instruction process." |                            |                            |                |
 | multi-modal | 高長聖         | DialogCC: Large-Scale Multi-Modal Dialogue Dataset                                                                | 2022 | https://arxiv.org/abs/2212.04119                    | "pre-train, prompt, and predict" | Dialogue                    | quantity | Create a synthetic visual dialogue dataset by leveraging a text-only dialogue dataset and an image captioning dataset                                                                                               |                            |                            |                |
 
-## Paper Architecture
-### Abstract
-### Introduction
+## 🦛Paper Architecture
+### 🧸Abstract
+### 🦖Introduction
 - 解釋 data aug 的總體概念和方法
 - 可以用年代去解釋
-### Background
+### 👻Background
 - 解釋 LLM、encoder-decoder、diffussion 的概念
-### APPROACHES
+### 🐎APPROACHES
 - 參考 https://arxiv.org/abs/2107.13586 （用技術分用年代放順序）
-  - feature engineering:
+  - 🐒feature engineering:
     - text: rule-based
     - image: https://pytorch.org/vision/stable/transforms.html
     - others
-  - architecture engineering: 
+  - 🦙architecture engineering: 
     - text: RNN, LSTM, Transformer
-    - others
-  - pre-train and fine-tune:
-    - text: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
     - image: GAN
     - others
-  - pre-train, prompt, and predict:
+  - 🐈pre-train and fine-tune:
+    - text: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
+    - image: CNN, Diffusion
+    - others
+  - 🍟pre-train, prompt, and predict:
     - text: Generation LLM(GPT), prompt engineering, context learning
     - image: Diffusion, DALLE
     - others
 
-### DATASET 
+### 🦘AUGMENTATION OBJECTIVE 
 
-- quality (image + text), ex: imbalance，語意豐富度(正反面)
-- quantity (image + text), ex: insufficient，少數資源的語言新增
-> 一個好的 dataset 應該要同時有好的 quality(e.g. data 的 diversity、data 的 可用性、data 的準確性、 data 的完整性、data 的一致性等等等) 和 足夠的 quantity ，可以根據這兩個主題分析 data augmentation 的方式是否有在增加 dataset 的同時也注意 quality
+- improve diversity, ex: 少數資源的語言新增
+- improve dataset balance ex: label imbalance
+- domain shift
+> 一個好的 dataset 應該要同時有好的 quality(e.g. 論文目的是為了增加資料的 diversity, availability, accuracy, complete...) 和 足夠的 quantity，可以根據這兩個主題分析 data augmentation 的方式是否有在增加 dataset 的同時也注意 quality
 
-### APPLICATION
-- Text
+### 🚟APPLICATION
+- 📒Text
   - Text classification
   - Question answering
   - Translation
