@@ -62,17 +62,23 @@
 ### Background
 - 解釋 LLM、encoder-decoder、diffussion 的概念
 ### APPROACHES
-- Text （是參考 https://arxiv.org/abs/2107.13586）（用技術分用年代放順序）
-  - feature engineering: rule-based 
-  - architecture engineering: RNN, LSTM, Transformer
-  - pre-train and fine-tune: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
-  - pre-train, prompt, and predict: Generation LLM(GPT), prompt engineering, context learning
-- Image
-  - feature engineering: https://pytorch.org/vision/stable/transforms.html
-  - architecture engineering:
-  - pre-train and fine-tune: GAN
-  - pre-train, prompt, and predict: Diffusion, DALLE
-- Others (multi-modal、audio、video)
+- 參考 https://arxiv.org/abs/2107.13586 （用技術分用年代放順序）
+  - feature engineering:
+    - text: rule-based
+    - image: https://pytorch.org/vision/stable/transforms.html
+    - others
+  - architecture engineering: 
+    - text: RNN, LSTM, Transformer
+    - others
+  - pre-train and fine-tune:
+    - text: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
+    - image: GAN
+    - others
+  - pre-train, prompt, and predict:
+    - text: Generation LLM(GPT), prompt engineering, context learning
+    - image: Diffusion, DALLE
+    - others
+
 ### DATASET 
 
 - quality (image + text), ex: imbalance，語意豐富度(正反面)
