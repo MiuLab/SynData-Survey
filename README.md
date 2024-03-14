@@ -8,12 +8,12 @@
 
 ### 👻 3. Background
 > 解釋下面這些的概念
-  1. RNN, LSTM
+  1. ~RNN, LSTM~
   2. transformer
   3. LLM
   4. Prompt Engineering
   5. GAN
-  6. CNN
+  6. ~CNN~
   7. Diffusion
 
 ### 🐎 4. APPROACHES
