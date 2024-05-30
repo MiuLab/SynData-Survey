@@ -1,63 +1,45 @@
 # 😍 SynData-Survey
+
 ## 🐲 Paper Architecture
+
 ### 🧸 1. Abstract
+
 ### 🦖 2. Introduction
-> 解釋 data augmentation 的總體概念和方法
-> 可以用年代去解釋
-- Data Augmentation Concepts
 
-### 👻 3. Background
-> 解釋下面這些的概念
-  1. ~RNN, LSTM~
-  2. transformer
-  3. LLM
-  4. Prompt Engineering
-  5. GAN
-  6. ~CNN~
-  7. Diffusion
+> Pipeline
+1. Augmentation Objectives: Discovering situations where synthetic data is needed
+2. Synthetic data Generation: Generating synthetic data through different approaches
+3. Post-processing: Filtering and modifying the generated data to ensure they are beneficial
 
-### 🐎 4. APPROACHES
-- 參考 https://arxiv.org/abs/2107.13586 （用技術分用年代放順序）
-1. 🐒 Feature Engineering:
-  - TEXT: rule-based
-  - IMAGE: https://pytorch.org/vision/stable/transforms.html
-  - OTHERS
-2. 🐈 Architecture Engineering: 
-  - TEXT: RNN, LSTM, Transformer
-  - IMAGE: GAN
-  - OTHERS
-3. 🦙 Pre-train and Fine-tune:
-  - TEXT: Transformer,  LM(encoder, decoder, BERT,generation-based model, RNN)
-  - IMAGE: CNN, Diffusion
-  - OTHERS
-4. 🍟 Pre-train, Prompt, and Predict:
-  - TEXT: Generation LLM(GPT), prompt engineering, context learning
-  - IMAGE: Diffusion, DALLE
-  - OTHERS
+### 👻 3. AUGMENTATION OBJECTIVES
 
-### 🦘 5. AUGMENTATION OBJECTIVES
-  - improve diversity, ex: 少數資源的新增
-  - improve dataset balance ex: label imbalance
-  - domain shift
+1. Improving Diversity
+2. Data Balancing
+3. Addressing Domain Shift
+4. Resolving Edge Cases
 
-### 🚟 6. APPLICATION
-  - 📒 Text
-    - Text classification
-    - Question answering
-    - Translation
-    - Natural language inference
-    - Text Generation
-    - Summarizing
-    - Instruction tuning
-    - Others
-  - 🖼️ Image
-    - Image Classification 
-    - Semantic Segmentation
-    - Object Detection
-    - Human Pose Estimation
+### 🐎 4. AUGMENTATION APPROACHES
 
-### 🎊 7. Future Work
-### 🧑🏻‍🎓 8. Conclusion
+> There is a strong correlation between the techniques used for obtaining synthetic data and the machine learning methods that were popular at that time
+
+1. Expert Knowledge
+2. Direct Training
+3. Pre-train then Fine-tune
+4. Foundation Model without Fine-tuning
+
+### 🚟 5. POST-PROCESSING
+
+1. basic quality
+2. label consistency
+3. data distribution
+
+### 🎊 6. Future Work
+
+1. From Quantity to Quality
+2. The Evaluation of Augmented Data
+3. Multi-modal data augmentation
+
+### 🧑🏻‍🎓 7. Conclusion
 
 ## 🤗 Papers that we read
 | 類別          | who are you | paper 題目                                                                                                          | year | paper 連結                                            | 技術類型（四類）                         | application                 | dataset  | 一句話總結                                                                                                                                                                                                               | 
