@@ -1,5 +1,6 @@
 # 😊 A Survey of Data Synthesis Approaches
 <!-- - [arXiv paper]()-->
+
 <!-- toc -->
 ## Overview of *A Survey of Data Synthesis Approaches*
   * [Pipeline of Synthesizing Data](#pipeline-of-synthesizing-data)
@@ -34,28 +35,28 @@ We categorize these objectives into four types: Improving Diversity, Data Balanc
 
 #### 1. **Enhancing Diversity**:
 Reduce the possibility of overfitting, resulting in better generalization capabilities.
-    - [Cubuk et al. (2020)](https://arxiv.org/abs/1909.13719)：employs random sampling of transformation subsets
-    - [Liu et al. (2024b)](https://arxiv.org/abs/2404.00361)：leverages the LLMs’ in-context learning capability
-    - [Wang et al. (2023)](https://aclanthology.org/2023.acl-long.754/)：utilizes Rouge-L to examine the similarity between generated data
+ - [Cubuk et al. (2020)](https://arxiv.org/abs/1909.13719)：employs random sampling of transformation subsets
+ - [Liu et al. (2024b)](https://arxiv.org/abs/2404.00361)：leverages the LLMs’ in-context learning capability
+ - [Wang et al. (2023)](https://aclanthology.org/2023.acl-long.754/)：utilizes Rouge-L to examine the similarity between generated data
 
 #### 2. **Balancing Data Sets**:
 Providing more balanced training data for minority classes.
-    - Rresampling or synthetic data generation
-    [SMOTE (Chawla et al., 2002)](https://doi.org/10.1613/jair.953) or [ADASYN (He et al., 2008)](https://doi.org/10.1109/IJCNN.2008.4633969)
+  - Rresampling or synthetic data generation
+  [SMOTE (Chawla et al., 2002)](https://doi.org/10.1613/jair.953), [ADASYN (He et al., 2008)](https://doi.org/10.1109/IJCNN.2008.4633969)
 
 #### 3. **Addressing Domain Shifts**:
 To adapt to the differences in data distribution between the different domain tasks.
-    - [Chen et al. (2021)](https://arxiv.org/abs/2109.01758)：adding noise to input sentences and transforming sentence formats between different domains.
-    - [Orbes-Arteaga et al. (2022)](https://arxiv.org/abs/2202.11486)：consistency training and adversarial learning
+  - [Chen et al. (2021)](https://arxiv.org/abs/2109.01758)：adding noise to input sentences and transforming sentence formats between different domains.
+  - [Orbes-Arteaga et al. (2022)](https://arxiv.org/abs/2202.11486)：consistency training and adversarial learning
 
 #### 4. **Managing Edge Cases**:
 Expand the variety of training data by introducing rare but plausible scenario.
-- Simulating various real-world perturbations and anomalies[(Yudkin et al., 2022)](https://arxiv.org/abs/2206.00148)
+ - Simulating various real-world perturbations and anomalies [(Yudkin et al., 2022)](https://arxiv.org/abs/2206.00148)
 
 ### Augmentation Approaches
 We introduce various approaches to generate synthetic data, and categorize these approaches into four types: Expert Knowledge, Direct Training, Pre-train then Fine-tune, and Foundation Models without Fine-tuning. Techniques for generating synthetic data often align with the prevailing machine learning methodologies of their time.
 <p align="center">
-    <img src="images/1.png" width="450">
+    <img src="images/1.png" width="750">
 </p>
 
 #### 1. **Leveraging Expert Knowledge**
