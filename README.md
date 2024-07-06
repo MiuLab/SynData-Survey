@@ -100,21 +100,21 @@ Companies have published foundation models that often exhibit excellent performa
 
 #### 1. **Ensuring Basic Quality**
 Basic quality encompasses elements such as fluency, grammatical accuracy, format validation among others. 
-    - Fluency
-    Using [SLOR](http://arxiv.org/abs/1809.08731) metric to evaluate fluency.
-    Using GPT-4 to mimic human evaluations [(Abdulin et al.)](https://arxiv.org/abs/2401.17461).
-    - Format validation
-    Regular expression to ensure the correct format [(Lee et al.)](https://aclanthology.org/2022.ccgpk-1.4/)
+  - Fluency
+  Using [SLOR](http://arxiv.org/abs/1809.08731) metric to evaluate fluency.
+  Using GPT-4 to mimic human evaluations [(Abdulin et al.)](https://arxiv.org/abs/2401.17461).
+  - Format validation
+  Regular expression to ensure the correct format [(Lee et al.)](https://aclanthology.org/2022.ccgpk-1.4/)
 
 #### 2. **Maintaining Label Consistency**
 To avoid the discrepancies between the data and
 its labels.
-    - Train a classifier to filter generated context ([Zhou et al.](https://arxiv.org/abs/2108.06332), [Anaby-Tavor et al.](https://arxiv.org/abs/1911.03118), [Puri et al.](https://arxiv.org/abs/2002.09599))
+  - Train a classifier to filter generated context ([Zhou et al.](https://arxiv.org/abs/2108.06332), [Anaby-Tavor et al.](https://arxiv.org/abs/1911.03118), [Puri et al.](https://arxiv.org/abs/2002.09599))
 
 #### 3. **Aligning Data Distribution**
 To enhance the diversity and generalizability of synthetic dataset. 
-    - Filtered out data with high similarity [(Wang et al.)](https://aclanthology.org/2023.acl-long.754/)
-    - Solve class imbalance by with diverse data using similarity score [(Suhaeni and Yong 2023)](https://www.mdpi.com/2076-3417/13/17/9766)
+  - Filtered out data with high similarity [(Wang et al.)](https://aclanthology.org/2023.acl-long.754/)
+  - Solve class imbalance by with diverse data using similarity score [(Suhaeni and Yong 2023)](https://www.mdpi.com/2076-3417/13/17/9766)
 
 ### Future Work
 
