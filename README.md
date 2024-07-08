@@ -1,5 +1,5 @@
 # 😊 A Survey of Data Synthesis Approaches
-<!-- - [arXiv paper]()-->
+- [arXiv paper](https://arxiv.org/abs/2407.03672)
 
 <!-- toc -->
 ## Overview of *A Survey of Data Synthesis Approaches*
@@ -131,3 +131,14 @@ this area holds significant potential for enhancing
 model performance in complex task
 
 ## Citation
+```
+@misc{chang2024surveydatasynthesisapproaches,
+      title={A Survey of Data Synthesis Approaches}, 
+      author={Hsin-Yu Chang and Pei-Yu Chen and Tun-Hsiang Chou and Chang-Sheng Kao and Hsuan-Yun Yu and Yen-Ting Lin and Yun-Nung Chen},
+      year={2024},
+      eprint={2407.03672},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2407.03672}, 
+}
+```
